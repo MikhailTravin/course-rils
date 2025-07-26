@@ -1,0 +1,26 @@
+.footer {
+    // .footer__container
+    &__container {
+    }
+    // .footer__content
+    &__content {
+        border-top: 2px solid #afafaf;
+        padding: 16px 0px 32px 0px;
+        @media (max-width: $mobile) {
+            padding: 16px 0px 90px 0px;
+        }
+    }
+    // .footer__text
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        margin: 0px 0px 4px 0px;
+        &:last-child {
+            margin: 0px 0px 0px 0px;
+        }
+        @media (max-width: $mobile) {
+            margin: 0px 0px 16px 0px;
+        }
+    }
+}
